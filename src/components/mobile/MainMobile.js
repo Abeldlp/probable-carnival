@@ -100,11 +100,11 @@ export default class Main extends Component {
             <li style={styles.listItem}>Cableado</li>
             <li style={styles.listItem}>Tejados</li>
             <li style={styles.listItem}>Piscinas</li>
-            <li style={styles.listItem}>Amueblados</li>
+            <li style={styles.listItem}>Decoracion</li>
             <li style={styles.listItem}>Cuartos de bano</li>
             <li style={styles.listItem}>Tuberias</li>
             <li style={styles.listItem}>Instalacion de electrodomesticos</li>
-            <li style={styles.listItem}>Amueblado</li>
+            <li style={styles.listItem}>Estructuras de hormigon</li>
             <li style={styles.listItem}>Derrumbre</li>
             <li style={styles.listItem}>Desecho de escombros</li>
           </ul>

@@ -13,65 +13,27 @@ export default class WhoMobile extends Component {
         <div style={styles.text}>
           <h2>Una empresa nacida de las raices de sevilla capital</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            exercitationem magni nisi tenetur odio corporis quas quisquam
-            accusamus, tempora quo consequatur mollitia ipsam! Accusantium
-            quibusdam, voluptatibus modi reiciendis unde laborum velit a quis
-            non, sit magni eligendi officia nulla dolorum facere! Quod
-            praesentium laborum fugit? Cum, modi, dolorem, officiis et
-            voluptates enim corrupti assumenda voluptatem rem fugit quos sed
-            reiciendis omnis dignissimos error magni tempora eos est
-            exercitationem fugiat corporis nostrum pariatur velit unde.
-            Laboriosam, laborum explicabo culpa aliquam praesentium corporis
-            harum minus eos tempora quo itaque? At dolores corrupti, beatae
-            repudiandae incidunt, similique illo ipsam voluptate, cum iusto
-            assumenda?
+            Una empresa nacida de las raices de Sevilla con mas de 20 años de
+            experiencia. Con una gran cartelera de clientes satisfechos por
+            nuestro trabajo.
           </p>
         </div>
 
         <div style={styles.image2}></div>
 
         <div style={styles.text}>
-          <h2>
-            Construimos la casa de tus sueños entre las estrechas calles de
-            sevilla
-          </h2>
+          <h2>Construimos la casa de tus sueños</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            exercitationem magni nisi tenetur odio corporis quas quisquam
-            accusamus, tempora quo consequatur mollitia ipsam! Accusantium
-            quibusdam, voluptatibus modi reiciendis unde laborum velit a quis
-            non, sit magni eligendi officia nulla dolorum facere! Quod
-            praesentium laborum fugit? Cum, modi, dolorem, officiis et
-            voluptates enim corrupti assumenda voluptatem rem fugit quos sed
-            reiciendis omnis dignissimos error magni tempora eos est
-            exercitationem fugiat corporis nostrum pariatur velit unde.
-            Laboriosam, laborum explicabo culpa aliquam praesentium corporis
-            harum minus eos tempora quo itaque? At dolores corrupti, beatae
-            repudiandae incidunt, similique illo ipsam voluptate, cum iusto
-            assumenda?
+            Contamos con un equipo profesional para diseñar tu construcción, te
+            asesoramos en tus reformas integrales y reformas en general.
           </p>
         </div>
 
         <div style={styles.image3}></div>
 
         <div style={styles.text}>
-          <h2>Alrededores</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            exercitationem magni nisi tenetur odio corporis quas quisquam
-            accusamus, tempora quo consequatur mollitia ipsam! Accusantium
-            quibusdam, voluptatibus modi reiciendis unde laborum velit a quis
-            non, sit magni eligendi officia nulla dolorum facere! Quod
-            praesentium laborum fugit? Cum, modi, dolorem, officiis et
-            voluptates enim corrupti assumenda voluptatem rem fugit quos sed
-            reiciendis omnis dignissimos error magni tempora eos est
-            exercitationem fugiat corporis nostrum pariatur velit unde.
-            Laboriosam, laborum explicabo culpa aliquam praesentium corporis
-            harum minus eos tempora quo itaque? At dolores corrupti, beatae
-            repudiandae incidunt, similique illo ipsam voluptate, cum iusto
-            assumenda?
-          </p>
+          <h2>Sector</h2>
+          <p>Nos desplazamos hasta Sevilla, Huelva, Cadiz y Cordoba.</p>
         </div>
       </div>
     );
@@ -82,25 +44,25 @@ const styles = {
   image1: {
     backgroundImage: "url(" + image1 + ")",
     backgroundSize: "cover",
-    backgroundPosition:"center",
+    backgroundPosition: "center",
     height: "50vh",
   },
   image2: {
     backgroundImage: "url(" + image2 + ")",
     backgroundSize: "cover",
-    backgroundPosition:"center",
+    backgroundPosition: "center",
     height: "50vh",
   },
   image3: {
     backgroundImage: "url(" + image3 + ")",
     backgroundSize: "cover",
-    backgroundPosition:"center",
+    backgroundPosition: "center",
     height: "50vh",
   },
-  text:{
-      textAlign:"center",
-      padding:" 20px 10px",
-      backgroundColor:"rgb(19, 19, 19)",
-      color:"whitesmoke"
-  }
+  text: {
+    textAlign: "center",
+    padding: " 20px 10px",
+    backgroundColor: "rgb(19, 19, 19)",
+    color: "whitesmoke",
+  },
 };

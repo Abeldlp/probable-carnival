@@ -27,6 +27,9 @@ import photo24 from "../obras/24.jpg";
 import photo25 from "../obras/25.jpg";
 import photo26 from "../obras/26.jpg";
 import photo27 from "../obras/27.jpg";
+import photo29 from "../obras/29.JPG";
+import photo30 from "../obras/30.jpg";
+import photo31 from "../obras/31.jpg";
 
 export default class Obras extends Component {
   constructor(props) {
@@ -34,6 +37,9 @@ export default class Obras extends Component {
 
     this.state = {
       images: [
+        photo25,
+        photo30,
+        photo31,
         photo1,
         photo2,
         photo3,
@@ -58,7 +64,6 @@ export default class Obras extends Component {
         photo22,
         photo23,
         photo24,
-        photo25,
         photo26,
         photo27,
       ],

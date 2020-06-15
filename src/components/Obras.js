@@ -86,7 +86,11 @@ export default class Obras extends Component {
   render() {
     return (
       <div>
-        <h1 style={{ textAlign: "center" }}>Obras</h1>
+        <h1
+          style={{ textAlign: "center", margin: "auto", padding: "30px 20px" }}
+        >
+          Obras
+        </h1>
         <div style={styles.containerStyle}>
           {this.state.images.map((image) => {
             return (
@@ -95,8 +99,8 @@ export default class Obras extends Component {
                 id={image}
                 style={{
                   backgroundImage: "url(" + image + ")",
-                  height: "400px",
-                  width: "400px",
+                  height: "300px",
+                  width: "300px",
                   marginTop: 20,
                   marginBottom: 20,
                   backgroundSize: "cover",

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Contact extends Component {
+export default class ContactMobile extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -71,8 +71,10 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="secondary-screen">
-        <h1 style={{ textAlign: "center", padding: 10 ,margin:"auto"}}>
-          Contacta con nosotros
+        <h1
+          style={{ textAlign: "center", padding: "30px 20px", margin: "auto" }}
+        >
+          Contacta
         </h1>
         <form id="contact-form" style={styles.formstyle}>
           <input
@@ -138,7 +140,7 @@ const styles = {
     flexDirection: "column",
     justifyContent: "space-around",
     height: "70%",
-    width: "50%",
+    width: "80%",
   },
   formitem: {
     padding: 10,

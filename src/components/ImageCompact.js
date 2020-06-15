@@ -1,17 +1,15 @@
 import React, { Component } from "react";
 
 export default class ImageCompact extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div style={styles.main}>
         <img style={styles.image} src={this.props.image} alt="logo" />
-        <button style={styles.button} onClick={this.props.button}>
-          {" "}
-          Cerrar{" "}
-        </button>
+        <i
+          className="fa fa-close fa-2x"
+          style={styles.button}
+          onClick={this.props.button}
+        ></i>
       </div>
     );
   }
@@ -25,16 +23,19 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    zIndex: 8,
   },
   image: {
     height: "100vh",
   },
   button: {
-    padding: 10,
-    backgroundColor: "grey",
-    position: "absolute",
+    padding: 15,
+    color: "white",
+    position: "fixed",
     right: "20px",
     top: "20px",
+    cursor: "pointer",
+    background: "#333333",
     borderRadius: "18px",
   },
 };

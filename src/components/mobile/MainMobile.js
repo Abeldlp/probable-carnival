@@ -1,17 +1,46 @@
 import React, { Component } from "react";
-import vlad from "../Resources/media/vlad.jpg";
-import trabajo from "../Resources/media/trabajo.jpg";
+import vlad from "../../Resources/media/vlad.jpg";
 import { Link } from "react-router-dom";
+import logo from "../../Resources/media/fjdlogo.png";
 
 export default class Main extends Component {
   render() {
     return (
       <div>
-        <div className="banner-img">
-          <img src={trabajo} alt="" />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <img
+            style={{ height: "200px", marginBottom: "20px" }}
+            src={logo}
+            alt="logo"
+          />
         </div>
-        <h1 className="banner-text1">Construimos un</h1>
-        <h1 className="banner-text2">futuro mejor</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Montserrat Subrayada",
+            padding: "0px 10px",
+          }}
+        >
+          Construimos
+        </h1>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Montserrat Subrayada",
+            padding: "0px 10px",
+          }}
+        >
+          un
+        </h1>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "Montserrat Subrayada",
+            marginBottom: "20px",
+          }}
+        >
+          futuro mejor
+        </h1>
         <h1 style={styles.title}>FJD</h1>
         <h4 style={styles.parragraph}>
           Contamos con un equipo de profesionales que se adapten a tus
@@ -20,18 +49,37 @@ export default class Main extends Component {
           limpia y amueblada (incluso electrodomésticos, etc..) si lo deseas.
         </h4>
 
-        <div className="design-box">
-          <div className="design"></div>
-        </div>
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <img style={{ width: "100%" }} src={vlad} alt="logo" />
 
-        <div className="explanation-container">
-          <div className="ex-div-container">
-            <img className="try" src={vlad} alt="logo" />
-          </div>
-          <div className="explanation-text">
-            <h1 className="explanation-text1">La casa de tus sueños</h1>
-            <h1 className="explanation-text2">no tiene porque</h1>
-            <h1 className="explanation-text3">ser un sueño</h1>
+          <div style={{ paddingBottom: "20px" }}>
+            <h1
+              style={{
+                textAlign: "center",
+                fontFamily: "Montserrat Subrayada",
+                padding: "0px 10px",
+              }}
+            >
+              La casa de tus sueños
+            </h1>
+            <h1
+              style={{
+                textAlign: "center",
+                fontFamily: "Montserrat Subrayada",
+                padding: "0px 10px",
+              }}
+            >
+              no tiene porque
+            </h1>
+            <h1
+              style={{
+                textAlign: "center",
+                fontFamily: "Montserrat Subrayada",
+                padding: "0px 10px",
+              }}
+            >
+              ser un sueño
+            </h1>
           </div>
         </div>
 
@@ -114,24 +162,23 @@ export default class Main extends Component {
           informacion o envienos un mensaje <Link to="/contacta">aqui</Link>
         </h4>
         <footer>
-          <div className="footer-box">
-            <h2>Paco Jimenez</h2>
-            <p>Gerente y Jefe de empresa</p>
-            <p className="info">EMAIL:</p>
-            <p>loressfgasdg@gmail.com</p>
-            <p className="info">Numero de telefono</p>
-            <p>654845515</p>
-          </div>
           <div className="footer-box" id="box-perfil">
-            <h2>Encarnacion Borrero</h2>
+            <h2
+              style={{
+                textAlign: "center",
+                position: "relative",
+                right: "40%",
+              }}
+            >
+              Encarnacion
+            </h2>
             <p>Administrativa financial</p>
             <p className="info">EMAIL:</p>
-            <p>loressfgasdg@gmail.com</p>
+            <p>encarniborrero@gmail.com</p>
             <p className="info">Numero de telefono</p>
-            <p>654845515</p>
+            <p>630910900</p>
           </div>
         </footer>
-        
       </div>
     );
   }
@@ -143,9 +190,9 @@ const styles = {
     color: "lightgrey",
     fontFamily: "Montserrat",
     backgroundColor: "rgb(19, 19, 19)",
-    paddingTop: "50px",
     letterSpacing: "8px",
     textAlign: "center",
+    padding: "20px",
   },
   parragraph: {
     margin: "auto",
@@ -167,14 +214,12 @@ const styles = {
     fontFamily: "Montserrat",
   },
   list: {
-    columnCount: 2,
     width: "50%",
     margin: "auto",
     listStyle: "square",
     paddingTop: "20px",
     paddingBottom: "80px",
     fontFamily: "Montserrat",
-    fontSize: "18px"
   },
   listItem: {
     padding: "5px",
